@@ -40,6 +40,15 @@
 !stable-es/02-checklist/*.md
 !stable-es/03-appendices/
 !stable-es/03-appendices/*.md
+!stable-fa/
+!stable-fa/title*.yaml
+!stable-fa/.*.md
+!stable-fa/01-introduction/
+!stable-fa/01-introduction/*.md
+!stable-fa/02-checklist/
+!stable-fa/02-checklist/*.md
+!stable-fa/03-appendices/
+!stable-fa/03-appendices/*.md
 
 # allow the draft area
 !draft-en/
