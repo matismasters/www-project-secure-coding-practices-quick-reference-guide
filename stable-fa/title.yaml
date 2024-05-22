@@ -1,0 +1,18 @@
+---
+lang: fa-FA
+title:
+- type: main
+  text: شیوه‌های کدنویسی امن
+- type: subtitle
+  text: راهنمای کدنویسی امن 
+creator:
+- role: author
+  text: Open Worldwide Application Security Project (OWASP)
+- role: editor
+  text: Keith Turpin
+- role: translator
+  text: Ashkan Rafiee
+version: Stable
+date: فوریه ۲۰۲۳ به بعد
+rights:  Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+...

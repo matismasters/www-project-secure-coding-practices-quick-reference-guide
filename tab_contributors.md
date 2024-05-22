@@ -60,4 +60,8 @@ If you contribute to this Project, please add your name here.
 * Jie Wang
 * Yongliang He
 
+## Persian (Farsi)
+
+* Ashkan Rafiee
+
 [jon-gadsden]: mailto:jon.gadsden@owasp.org
