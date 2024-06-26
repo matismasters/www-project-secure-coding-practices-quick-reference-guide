@@ -28,10 +28,10 @@ document: Prácticas de Codificación Segura - Guía rápida de referencia
 - [ ]   Codificar los datos a un juego de caracteres común antes de su 
     validación (canonicalización)
 
-- [ ]   Todas las fallas en la validación deber terminar en el rechazo del
+- [ ]   Todas las fallas en la validación deberían terminar en el rechazo del
     dato de entrada
 
-- [ ]   Determinar si el sistema soportará juegps de caracteres UTF-8
+- [ ]   Determinar si el sistema soportará juegos de caracteres UTF-8
     extendidos y de ser así, validarlos luego de terminada la
     decodificación del UTF-8
 
@@ -82,7 +82,7 @@ document: Prácticas de Codificación Segura - Guía rápida de referencia
 
 ## Codificación de salidas
 
-- [ ]   Realice toda codificación en una zona de confianza (Por ejemplo, en el
+- [ ]   Realice toda codificación en una zona de confianza (por ejemplo, en el
     servidor)
 
 - [ ]   Utilice una rutina probada y estándar para cada tipo de codificación
@@ -133,7 +133,7 @@ document: Prácticas de Codificación Segura - Guía rápida de referencia
     y que el archivo/tabla que guarda las contraseñas y claves solo puede ser
     escrito por la aplicación (si es posible, no utilizar el algoritmo de hash MD5)
 
-- [ ]   El hash de las contraseñas debe ser implementado en dentro de la
+- [ ]   El hash de las contraseñas debe ser implementado dentro de la
     frontera de confianza. (por ejemplo: el servidor)
 
 - [ ]   Validar los datos de autenticación únicamente luego haber completado
@@ -142,7 +142,7 @@ document: Prácticas de Codificación Segura - Guía rápida de referencia
 
 - [ ]   Las respuestas a los fallos en la autenticación no deben indicar
     cuál parte de la autenticación fue incorrecta. A modo de ejemplo, en
-    lugar de \"usuario invalido\" o \"contraseña invalida\", utilizar
+    lugar de \"usuario inválido\" o \"contraseña inválida\", utilizar
     \"usuario y/o contraseña inválidos\" en ambos casos. Las repuestas a
     los errores deben ser idénticas tanto a nivel de lo desplegado como
     a nivel del código fuente.
@@ -181,7 +181,7 @@ document: Prácticas de Codificación Segura - Guía rápida de referencia
 
 - [ ]   Deshabilitar las cuentas luego de un número establecido de intentos
     inválidos de inicio de sesión(por ejemplo, cinco intentos).
-    La cuenta debe ser dehabilitada por un periodo de tiempo suficiente como
+    La cuenta debe ser deshabilitada por un periodo de tiempo suficiente como
     para desalentar una inferencia de credenciales por fuerza bruta, pero no
     tanto como para provocar un ataque de denegación de servicio.
 
@@ -223,7 +223,7 @@ document: Prácticas de Codificación Segura - Guía rápida de referencia
 
 - [ ]   Implementar un monitoreo para identificar ataques a múltiples
     cuentas utilizando la misma contraseña. Este patrón de ataque es
-    utilizado parar superar bloqueos estándar cuando los nombres de
+    utilizado para superar bloqueos estándar cuando los nombres de
     usuario pueden ser recopilados o adivinados.
 
 - [ ]   Cambiar todos los usuarios y contraseñas por defecto o deshabilitar
@@ -507,7 +507,7 @@ document: Prácticas de Codificación Segura - Guía rápida de referencia
     descargado por un usuario
 
 - [ ]   No almacene contraseñas, cadenas de conexión u otra información
-    sensible sensible en texto claro o de cualquier otra forma no criptográfica
+    sensible en texto claro o de cualquier otra forma no criptográfica
     en el lado del cliente. Esto incluye embeber la información en  formatos
     inseguros como: MS viewstate, Adobe flash o código compilado
 
@@ -545,11 +545,11 @@ document: Prácticas de Codificación Segura - Guía rápida de referencia
     puede combinar con cifrado discreto de archivos sensibles
     en conexiones que no estén basadas en HTTP
 
-- [ ]   Los certificados TLS deben de ser válidos y poseer el nombre de
+- [ ]   Los certificados TLS deben ser válidos y poseer el nombre de
     dominio correcto, no deben estar expirados y deben ser instalados
     con los certificados intermedios si son requeridos
 
-- [ ]   Las conexiones TLS que fallen no deben de transformarse en una
+- [ ]   Las conexiones TLS que fallen no deben transformarse en una
     conexión insegura
 
 - [ ]   Utilizar conexiones TLS para todo el contenido que requiera acceso
@@ -593,7 +593,7 @@ document: Prácticas de Codificación Segura - Guía rápida de referencia
     robots.txt, en vez de "Deshabilitar" cada directorio individualmente
 
 - [ ]   Definir cuáles de los métodos HTTP, GET o POST, la aplicación va a
-    soportar y si deben de ser manejados de forma diferente en las
+    soportar y si deben ser manejados de forma diferente en las
     distintas páginas de la aplicación
 
 - [ ]   Desactive los métodos HTTP innecesarios, como las extensiones WebDAV.
@@ -641,7 +641,7 @@ document: Prácticas de Codificación Segura - Guía rápida de referencia
 
 - [ ]   Utilice credenciales seguras para acceder a la base de datos
 
-- [ ]   Las cadenas de conexión a la base de datos no deben de estar
+- [ ]   Las cadenas de conexión a la base de datos no deben estar
     incluidas en el código de la aplicación. Pueden estar en un archivo de
     configuración separado en un sistema confiable y debería de estar cifrado
 
